@@ -1,38 +1,27 @@
 - key: Name
-  value: Place Holder
+  value: Rongman Xu
 - key: Description
   value:
     - Hello!
-    - This tiny website
-    - Looks like JSON
+    - Welcome to my spiritual resort!
+    - And my Website
   typed: true
-- key: CV
-  value: cv.pdf
-  url: /cv.pdf
-- key: Address
+- key: Creation
   value:
-    - University of Jekyll
-    - Department of Themes
-    - 123 Main St, Anytown, USA
+    - key: Blog
+      url: /blog
+    - key: Project
+      url: /project
+    - key: Music
+      url: /music
 - key: Contact
   value:
-    - key: Office
-      value: Foobar Hall 1.23
-    - key: Phone
-      value: +1 234 567 890
     - key: Email
-      value: username@domain.com
-      url: "mailto:username@domain.com"
-- key: Source
-  value: piazzai/hacked-jekyll
-  url: https://github.com/piazzai/hacked-jekyll
+      value: jianjiayi679@gmail.com
+      url: "mailto:jianjiayi679@gmail.com"
 - key: Profiles
   value:
-    - value: Instagram
-      url: https://www.instagram.com
     - value: LinkedIn
       url: https://www.linkedin.com
-    - value: StackOverflow
-      url: https://stackoverflow.com
     - value: GitHub
       url: https://github.com
