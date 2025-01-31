@@ -8,11 +8,11 @@
   typed: true
 - key: Creation
   value:
-    - key: Blog
+    - value: Blog
       url: /blog
-    - key: Project
+    - value: Project
       url: /project
-    - key: Music
+    - value: Music
       url: /music
 - key: Contact
   value:

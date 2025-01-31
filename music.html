@@ -1,0 +1,19 @@
+---
+layout: default
+title: Music
+permalink: /music/
+---
+
+<h1>Music</h1>
+
+{% if site.posts.size == 0 %}
+  <p>Where is the music going??!! OMG, they disappear before they even born!</p>
+{% else %}
+  <ul>
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%Y-%m-%d" }}
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}

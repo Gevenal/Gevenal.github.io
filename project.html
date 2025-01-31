@@ -1,0 +1,19 @@
+---
+layout: default
+title: Project
+permalink: /project/
+---
+
+<h1>Project</h1>
+
+{% if site.posts.size == 0 %}
+  <p>Project will be uploaded Later...</p>
+{% else %}
+  <ul>
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%Y-%m-%d" }}
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
